@@ -1,5 +1,6 @@
-import RegisterFormNew from '@/components/RegisterForm/RegisterForm';
 import React from 'react';
+import RegisterFormNew from '@/components/RegisterFormNew/RegisterFormNew';
+
 
 const Register = () => {
   return (
