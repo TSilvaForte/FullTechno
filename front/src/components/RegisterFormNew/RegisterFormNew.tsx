@@ -91,6 +91,10 @@ const RegisterFormNew = () => {
 
         if (isFormValid()) {
             try {
+                console.log("API URL:", apiUrl); 
+                console.log("Request URL:", `${apiUrl}/users/register`); 
+
+                
                 const response = await fetch(`${apiUrl}/users/register`, {
                     method: 'POST',
                     headers: {
