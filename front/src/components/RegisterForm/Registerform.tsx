@@ -11,7 +11,7 @@ import {
 import Swal from 'sweetalert2';
 import { useRouter } from 'next/navigation';
 
-const RegisterForm = () => {
+const RegisterFormNew = () => {
     const apiUrl = process.env.NEXT_PUBLIC_API_URL;
     const router = useRouter();
     const [formData, setFormData] = useState({
@@ -260,7 +260,7 @@ const RegisterForm = () => {
     );
 }
 
-export default RegisterForm;
+export default RegisterFormNew;
 
 
 
